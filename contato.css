@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30;
+    padding: 10;
+    background: url(assets/assets/fundo\ 2.jpg);
+}
+header {
+    background-color: rgba(0, 0, 0, 0.1) #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 50px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do main e galeria de fotos */
+main {
+    padding: 70px;
+}
+.contact-form,
+.create-account {
+    margin-bottom: 2rem;
+}
+
+.contact-form h2,
+.create-account h2 {
+    margin-top: 0;
+}
+
+.contact-form form,
+.create-account form {
+    border: 1px solid #000000;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.contact-form label,
+.create-account label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.create-account input[type="text"],
+.create-account input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button,
+.create-account button {
+    background-color: #0099ff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover,
+.create-account button:hover {
+    background-color: #ffffff;
+}

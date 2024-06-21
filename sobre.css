@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px auto; /* Centraliza horizontalmente e dá margem vertical */
+    padding: 50px;
+    background-color: #000000;
+    color: #000000;
+    font-size: large;
+    max-width: 800px;
+    text-align: center;
+    background: url('assets/assets/caos.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área */
+}
+header {
+    background-color: rgba(0, 0, 0, 0.1) #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 50px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do main e galeria de fotos */
+main {
+    padding: 70px;
+}
+ 
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo semi-transparente para melhorar a legibilidade */
+    border-radius: 20px; /* Adiciona bordas arredondadas ao container */
+}
+
+h1 {
+    text-align: center;
+    color: #000000; /* Cor do título */
+}
+
+p {
+    line-height: 1.6;
+    color: #ffffff; /* Cor do texto dos parágrafos */
+}
